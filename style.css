@@ -37,15 +37,6 @@
         width: 30%;
     }
 
-
-	#start-jurney-bg img {
-		width:20%;
-	}
-	#start-jurney-bg .map-icon {
-		bottom:  0;
-		
-	}
-
 	.destination .bg-outer {
 		background: var(--main-bg-color);
 	}
@@ -83,13 +74,16 @@
 .bg-outer-guide  img {
 	bottom: -8rem;
 }
-
-#start-jurney-bg {
-	background: url(img/background-f.png) no-repeat;
+ 
+.bg-image  {
+	/* background: url(img/background-f.png) ; */
+	background-image: url(img/background-f.png);
+    height: auto;
+	background-size: cover;
 }
 
-.start-jurney  img {
-	width: 5%;
+.start-jurney img {
+	width: 80px;
 }
 
 .start-jurney > * {
@@ -99,10 +93,6 @@
 .map-icon {
 	bottom: -2rem;
 	
-}
-
-.end-footer {
-	color: blue;
 }
 
 /* for sticky button */
